@@ -18,3 +18,8 @@ function distanceTravelledInFeet (startpoint, endpoint) {
     return (startpoint - endpoint) * 264;
   }
 }
+
+function calculatesFarePrice (start, end) {
+  if (start - end) <= 400;
+    return 0
+}
