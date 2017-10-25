@@ -7,6 +7,7 @@ function distanceFromHqInBlocks (numberofBlocks) {
   }
 }
 
-function distanceFromHqInFeet () {
-  distanceFromHqInBlocks();
+function distanceFromHqInFeet (numberofBlocks) {
+  distanceFromHqInBlocks(numberofBlocks) * 264;
+  
 }
