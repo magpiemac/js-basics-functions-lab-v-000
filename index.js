@@ -23,7 +23,7 @@ function calculatesFarePrice (startpoint, endpoint) {
   const distance = distanceTravelledInFeet(startpoint, endpoint);
   if (distance <= 400) {
     return 0;
-  } else if (distance > 401 && distance < 2000) {
+  } else if (distance > 400 && distance < 2000) {
     return (distance * .02)
   }
 }
