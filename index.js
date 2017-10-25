@@ -19,7 +19,8 @@ function distanceTravelledInFeet (startpoint, endpoint) {
   }
 }
 
-function calculatesFarePrice (start, end) {
-  if (start - end) <= 400;
+function calculatesFarePrice (startpoint, endpoint) {
+  const distance = distanceTravelledInFeet(start, destination);
+  if distance <= 400;
     return 0
 }
