@@ -11,6 +11,10 @@ function distanceFromHqInFeet (numberofBlocks) {
   return distanceFromHqInBlocks(numberofBlocks) * 264;
 }
 
-function distanceTravelledInFeet (north, south) {
-  return (north - south) * 264
+function distanceTravelledInFeet (startpoint, endpoint) {
+  if (startpoint < endpoint) {
+    return (endpoint - startpoint) * 264;
+ {  else {
+    return (startpoint - endpoint) * 264;
+  }
 }
