@@ -10,3 +10,7 @@ function distanceFromHqInBlocks (numberofBlocks) {
 function distanceFromHqInFeet (numberofBlocks) {
   return distanceFromHqInBlocks(numberofBlocks) * 264;
 }
+
+function distanceTravelledInFeet (north, south) {
+  return (north - south) * 264
+}
